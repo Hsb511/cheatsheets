@@ -12,33 +12,31 @@ And to use sass run `sass --watch ./sass/main.scss:./generated/css/style.css --s
 
 sass/
 
-    bases/
+    bases/                  // general norms, font, spacing
         _base.scss
         _typography.scss
-    components/
+    components/             // small independant blocks
         _button.scss
         _input.scss
-    layouts/
+    layouts/                // big reusable containers
         _form.scss
         _headers.scss
         _nav.scss
-    pages/
+    pages/                  // styles specifi to one page
         _about.scss
         _project.scss
-    themes/
+    themes/                 // theme color
         _main_theme.scss
         _dark_theme.scss
-    utils/
+    utils/                  // some variables, functions, mixins, placeholders
         _functions.scss
         _mixins.scss
         _placeholders.scss
         _variables.scss
-    vendors/
+    vendors/                // external libs
         _bootstrap.scss
         _material.scss
-    main.scss
-
-In `main.scss` import all the partial files with : `@import "./bases/base"`
+    main.scss               // the main files with all above partial files imported with @import "./bases/base"
 
 ### 2) BEM `amazing-block__element--modifier`
 
