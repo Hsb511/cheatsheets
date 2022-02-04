@@ -19,27 +19,20 @@ onData(ViewMatcher)
 
 ## ViewActions
 
-### Click
 ```kotlin
 click()
 longClick()
 pressBack()
 closeSoftKeyboard()
 openLink()
-```
 
-### Gesture & Text
-```kotlin
 scrollTo()
 swipeUp()
 
 replaceText()
 typeText()
 clearText()
-```
 
-### Custom
-```kotlin
 fun selectTabAtPostion(tabIndex: Int) = object: ViewAction {
     override fun getDescription() = "with tab at index $tabIndex"
     
