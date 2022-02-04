@@ -1,4 +1,4 @@
-# This an exhaustive cheatsheet for sass and its good practices
+# SASS
 
 Here is a link to the [Sass documentation](https://sass-lang.com/documentation)
 
