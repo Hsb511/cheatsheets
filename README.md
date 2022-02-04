@@ -8,7 +8,7 @@ Sass is a stylesheet language that’s compiled to CSS. It allows you to use var
 - [SASS e-learning in french](https://openclassrooms.com/fr/courses/6106181-simplifiez-vous-le-css-avec-sass)
 
 ### Kotlin
-A modern programming language inspired by Java that makes developers happier. Developed by JetBrains & Open-source Contributors.
+Kotlin is a modern but already mature programming language aimed to make developers happier. It’s concise, safe, interoperable with Java and other languages, and provides many ways to reuse code between multiple platforms for productive programming. Developed by JetBrains & Open-source Contributors.
 - [my Kotlin Cheatsheet](kotlin.md)
 - [Kotlin official documentation](https://kotlinlang.org/docs/home.html)
 
