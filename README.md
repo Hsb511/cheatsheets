@@ -14,5 +14,6 @@ Kotlin is a modern but already mature programming language aimed to make develop
 
 ### Espresso
 Use Espresso to write concise, beautiful, and reliable Android UI tests.
-- [my Espresso Cheatshee](espresso.md)
+- [my Espresso Cheatsheet](espresso.md)
+- [my Espresso useful snippets](espresso_examples.md)
 - [Espresso official documentation](https://developer.android.com/training/testing/espresso)
