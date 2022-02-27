@@ -17,3 +17,8 @@ Use Espresso to write concise, beautiful, and reliable Android UI tests.
 - [my Espresso Cheatsheet](espresso.md)
 - [my Espresso useful snippets](espresso_examples.md)
 - [Espresso official documentation](https://developer.android.com/training/testing/espresso)
+
+### Git
+Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- [My git Cheatsheet](git.md)
+- [Git official documentation](https://git-scm.com/docs)
