@@ -18,35 +18,65 @@ git config --global core.editor "code --wait"
 ## Basic snapshotting
 
 ```bash
+# Show all the current staged and unstaged changes on the working tree 
 git status
 
+# Show all the current unstaged changes or compare two commits 
 git diff
+git diff 00df25f fc3050f  
 
-# Add all the modified files in the src/ directory to the index
+# Add all the modified files in the src/ directory to the staging index
 git add src/*
 
-git restore
+#
+git rm
 
-git commit -m ""
+# Reset all the specified unstaged changes or unstaged them if --staged specified
+git restore src/*
+git restore --staged src/*
 
+# Captures a snapshot of the project's currently staged changes
+git commit -m "An awesome message"
+git commit --amend -m "This message will overwrite the previous one"
+
+# Create a commit that undo all the changes of the specified commit
+git revert 00df25f
+
+# Temporarily shelves changes. Re-apply the last stash. List all the stashes. Delete the specified stash
+git stash
+git stash pop
+git stash list
+git stash drop stash@{31}
 ```
 
 ## Branching and merging
 
 ```bash
+# Create a new branch. List all the branches. Delete the specified branch
+git branch clean/src
+git branch --list
+git branch -D clean/src
 
-git branch
+# Switch branches. if -b specified create and switch branches
+git checkout clean/src
+git checkout -b fix/src
 
-git checkout
-
-git merge
-
+# Show all the commit logs in the current branch
 git log
 
-git reset
+# Reset the HEAD of the current branch to the specified commit keeping the changes or not if --hard specified
+git reset HEAD^
+git reset 00df25f --hard
 
-git stash
+# Merge the specified branch into the current one if none is specified
+git merge develop
+git merge --abort
+git merge --continue
+git merge --squash
 
+git rebase
+
+git cherry-pick
 ```
 
 ## Sharing and updating
@@ -59,5 +89,7 @@ git pull
 git push
 
 git submodule
+
+git tag
 
 ```
