@@ -22,3 +22,4 @@ Use Espresso to write concise, beautiful, and reliable Android UI tests.
 Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 - [My git Cheatsheet](git.md)
 - [Git official documentation](https://git-scm.com/docs)
+- [Another great doc by Atlassian](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
