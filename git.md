@@ -28,8 +28,8 @@ git diff 00df25f fc3050f
 # Add all the modified files in the src/ directory to the staging index
 git add src/*
 
-#
-git rm
+# Force to delete a file (or directory) and stage it
+git rm -f */myClass.kt
 
 # Reset all the specified unstaged changes or unstaged them if --staged specified
 git restore src/*
@@ -38,6 +38,7 @@ git restore --staged src/*
 # Captures a snapshot of the project's currently staged changes
 git commit -m "An awesome message"
 git commit --amend -m "This message will overwrite the previous one"
+git commit --amend --no-edit 
 
 # Create a commit that undo all the changes of the specified commit
 git revert 00df25f
@@ -47,6 +48,9 @@ git stash
 git stash pop
 git stash list
 git stash drop stash@{31}
+
+# Remove untracked files from the working tree
+git clean -f 
 ```
 
 ## Branching and merging
@@ -74,9 +78,11 @@ git merge --abort
 git merge --continue
 git merge --squash
 
-git rebase
+# Reapply all the commits of master on top of topic since their divergence
+git rebase master topic
 
-git cherry-pick
+# Pick the specified commit from any other branch and add it on top of your current branch. Don't forget to checkout before ! 
+git cherry-pick 62ecb3
 ```
 
 ## Sharing and updating
