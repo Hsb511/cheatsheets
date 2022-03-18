@@ -23,3 +23,11 @@ Git is a distributed version control system designed to handle everything from s
 - [My git Cheatsheet](git.md)
 - [Git official documentation](https://git-scm.com/docs)
 - [Another great doc by Atlassian](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+
+### Regex
+A regular expression (or "regex") is a search pattern used for matching one or more characters within a string. It can match specific characters, wildcards, and ranges of characters. Regular expressions were originally used by Unix utilities, such as vi and grep.
+- [My Regex Cheatsheet](regex.md)
+- [The best prezi for Regex in french](https://prezi.com/p/ktmt7wjncrfx/introduction-aux-regex-et-a-leur-utilisation/)
+- [Great online tool: regexr](https://regexr.com/)
+- [Regex crossword](https://regexcrossword.com/)
+- [The ultimate regex test](http://play.inginf.units.it/#/)
