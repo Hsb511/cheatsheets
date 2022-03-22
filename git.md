@@ -13,6 +13,11 @@ git init
 git config user.name myusername
 git config user.email my@email.com
 git config --global core.editor "code --wait"
+
+# Add a new remote, show current remote, update remote (switch from https to ssh)
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+git remote -v
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
 
 ## Basic snapshotting
