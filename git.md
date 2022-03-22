@@ -9,10 +9,11 @@ git clone https://github.com/Hsb511/cheatsheets.git
 # Create an empty Git repository or reinitialize an existing one
 git init 
 
-# Get and set repository or global options i.e. : user infos, editor, ...
+# Get and set repository or global options i.e. : user infos, editor, proxy, ...
 git config user.name myusername
 git config user.email my@email.com
 git config --global core.editor "code --wait"
+git config --global http.proxy 127.0.0.1:8888
 
 # Add a new remote, show current remote, update remote (switch from https to ssh)
 git remote add origin https://github.com/USERNAME/REPOSITORY.git
