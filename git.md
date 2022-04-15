@@ -103,6 +103,10 @@ git push
 
 git submodule
 
-git tag
-
+# Tag a version of your application
+git tag 1.0.0
+git tag -l
+git push --tags
+git tag -d 1.0.0
+git push --delete origin 1.0.0
 ```
