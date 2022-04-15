@@ -94,7 +94,7 @@ git cherry-pick 62ecb3
 
 ## Sharing and updating
 
-````bash
+```bash
 git fetch
 
 git pull
@@ -109,4 +109,5 @@ git tag -l
 git push --tags
 git tag -d 1.0.0
 git push --delete origin 1.0.0
+
 ```
